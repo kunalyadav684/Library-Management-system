@@ -47,7 +47,7 @@ if __name__ == '__main__':
             book = input("Enter the name of the book you want to return: ")
             harry.return_book(book)
         else:
-            print("Wrong Choice")
+            print("Incorrect Choice")
 
         user_choice2 = input("What you want to do now? Press c to continue and q to exit")
         if user_choice2 == 'q':
@@ -55,4 +55,4 @@ if __name__ == '__main__':
         elif user_choice2 == "c":
             continue
         else:
-            print('Wrong Choice')
+            print('Incorrect Choice')
